@@ -1,0 +1,38 @@
+{
+  "name": "Quick Timer",
+  "version": "1.0",
+  "description": "Quickly set timer alarms for anything!",
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs",
+    "activeTab",
+    "declarativeContent",
+    "storage",
+    "alarms",
+    "notifications"
+  ],
+  "web_accessible_resources": ["./music/alert1.mp3", "./music/alert2.mp3", "./music/alert3.mp3"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "options_page": "./options/options.html",
+  "page_action": {
+    "default_title": "quick timer",
+    "default_popup": "./popup/popup.html",
+    "default_icon": {
+      "16": "images/alert_16px.png",
+      "32": "images/alert_32px.png",
+      "48": "images/alert_48px.png",
+      "128": "images/alert_128px.png"
+    }
+  },
+  "icons": {
+    "16": "images/alert_16px.png",
+    "32": "images/alert_32px.png",
+    "48": "images/alert_48px.png",
+    "128": "images/alert_128px.png"
+  },
+  "manifest_version": 2
+}

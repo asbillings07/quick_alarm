@@ -1,0 +1,65 @@
+label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 0.3em;
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  font-weight: 600;
+}
+.margin {
+  margin: 15px 0;
+}
+
+#alertInfo {
+  margin: 5em 0;
+}
+
+input {
+  box-sizing: border-box;
+  box-shadow: none;
+  max-width: 100%;
+  border-image: initial;
+  border: 1px solid;
+  border-color: inherit;
+  border-radius: 3px;
+  font: inherit;
+  margin: 0.5em 0;
+  padding: 0.75em;
+  transition: border-color 0.2s ease 0s;
+}
+
+input:hover {
+  border: 1px solid lightgray;
+}
+
+.alertButton {
+  background: tomato;
+  border-color: tomato;
+  color: white;
+}
+
+.soundButton {
+}
+
+button {
+  padding: 5px 15px;
+  margin-right: 10px;
+  font-size: 12px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 3px rgba(0, 0, 0, 0.24);
+  background: teal;
+  border-color: teal;
+  color: white;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  justify-content: center;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+button:hover {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+button:focus {
+  outline: white auto 1px;
+}
